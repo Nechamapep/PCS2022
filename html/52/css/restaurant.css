@@ -1,0 +1,40 @@
+html
+{
+    background-color: black;
+     
+}
+nav{
+    color: white;
+}
+h1{
+    color: blueviolet;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    border: 10px;
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 20px;
+    margin: 3em;
+    padding: 20px;
+    height: fit-content;
+    width: auto;
+    overflow: auto;
+
+
+}
+h2{ 
+    color: blueviolet;
+    font-size: 2em;
+    font-weight: bold;
+}
+p   {
+    color: white;
+}
+a{
+    color: blueviolet;
+}
+a:hover{
+   color : red;
+}
