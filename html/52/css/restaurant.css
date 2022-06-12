@@ -3,12 +3,14 @@ html
     background-color: black;
      
 }
-nav{
-    color: white;
+header{
+    text-align: center;
+    font-size: 2em;
+
 }
 h1{
-    color: blueviolet;
-    font-size: 3em;
+    color: red;
+    font-size: 2em;
     font-style: italic;
     font-weight: bolder;
     text-align: center;
@@ -16,8 +18,8 @@ h1{
     border-style: groove;
     border-color: aqua;
     border-radius: 20px;
-    margin: 3em;
-    padding: 20px;
+    margin: 1em;
+    padding: 10px;
     height: fit-content;
     width: auto;
     overflow: auto;
@@ -25,16 +27,23 @@ h1{
 
 }
 h2{ 
-    color: blueviolet;
+    color: red;
     font-size: 2em;
     font-weight: bold;
 }
 p   {
     color: white;
+    font-size: 1em;
+ 
 }
 a{
-    color: blueviolet;
+    color: red;
+    font-size: 16px;
 }
 a:hover{
-   color : red;
+   color : blueviolet;
+}
+p2
+{
+    color: white;
 }
