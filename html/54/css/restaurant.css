@@ -1,0 +1,69 @@
+html
+{background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(105,10,10,1) 28%, rgba(158,29,29,1) 37%, rgba(122,27,27,1) 42%, rgba(0,0,0,1) 56%, rgba(11,61,73,1) 79%, rgba(0,212,255,1) 100%);
+}
+header{
+    text-align: center;
+    font-size: 2em;
+
+}
+body{
+    width: 75%;
+    margin: auto;
+}
+h1{
+    text-shadow: 3px 2px 1px white;
+    color: red;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    border: 10px;
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 10px;
+    height: fit-content;
+    width: auto;
+    overflow: auto;
+
+
+}
+h2{ 
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p   {
+    color: white;
+    font-size: 1em;
+ 
+}
+a{
+    color: red;
+    font-size: 16px;
+}
+a:hover{
+   color : blueviolet;
+}
+p2
+{
+    color: white;
+}
+.menu_item{
+    font-size: x-large;
+    font-style: italic;
+    
+}
+.menu_item img{
+   
+    height: 12em;
+    width: 12em;
+}
+ol{
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
