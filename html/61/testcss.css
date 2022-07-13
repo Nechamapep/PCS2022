@@ -1,0 +1,207 @@
+body{
+    font-family: helvetica, arial, sans-serif;
+
+
+
+}
+a {
+    text-decoration: none;   
+    color: white;
+    width: 80%;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+nav{
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    height: 30px;
+    top: 0%;
+    left: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    gap: 1em;
+    margin: 0 auto;
+    padding-left: 0%;
+}
+header{
+    background-color: lightgray;
+    width: 80%;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+header h1{
+    text-transform: uppercase;
+}
+header h2{
+    font-style: italic;
+}
+article {
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 3fr ;
+    gap: 1em;
+    margin: 0 auto;
+    grid-template-areas: " computer   choir   candy"
+                         " computer2  choir2  candy2";
+}
+article h3{
+    text-align: center;
+}
+.computer{
+    grid-area: computer;
+}
+.computer2{
+    grid-area: computer2;
+
+}
+.choir1{
+    grid-area: choir;
+}
+.choir2{
+    grid-area: choir2;
+    padding-left: 15px;
+    border-left: 2px solid black;
+}
+.candy{
+    grid-area: candy;
+}
+.candy2{
+    grid-area: candy2;
+    padding-left: 15px;
+    border-left: 2px solid black;
+}
+article p, img, video{
+    margin: 0 auto;
+    width: 80%
+    
+}
+div{
+    background-color: lightgray;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+div p {
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+img, video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+p {
+    text-align: center;
+    width: 80%;
+}
+
+aside{
+    width: 80%;
+    margin: 0 auto;
+}
+form label input{
+    box-shadow: 1px 2px 2px 1px black;
+    border-radius: 5px;
+}
+form button{
+    box-shadow: 1px 2px 2px 1px black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+table{
+     border-collapse: collapse;
+     width: 80%;
+     margin: 0 auto;
+}
+.tabletitle{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+table th, td{
+    border: 3px black solid; 
+}
+tr:hover{
+    background-color: lightblue;
+}
+th{
+    background-color: white;
+}
+td{
+    text-align: right;
+}
+tr:nth-child(odd){
+background-color: lightpink;
+}
+table td:last-child{
+    color: red;
+}
+table td:first-child{
+    font-weight: bolder;
+}
+section{
+    width: 80%;
+    margin: 0 auto;    
+    margin-bottom: 30px;
+}
+footer{
+    color: white;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    height: 20px;
+    bottom: 0%;
+    left: 0;
+}
+footer p{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+    
+@media screen and  (max-width: 1000px) {
+    article {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat (3, .5fr 3fr);
+        gap: 1em;
+        margin: 0 auto;
+        grid-template-areas: " computer"
+                             " computer2"
+                             " choir"  
+                             " choir2"
+                             " candy"
+                             " candy2";
+    }
+    .candy2, .choir2{
+        border-left: none;
+    }
+   form{
+    display: block;
+    padding-right:130px;
+    padding-left:130px;
+   }
+}
