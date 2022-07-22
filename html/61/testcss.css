@@ -1,8 +1,5 @@
 body{
     font-family: helvetica, arial, sans-serif;
-
-
-
 }
 a {
     text-decoration: none;   
@@ -64,7 +61,6 @@ article h3{
 }
 .computer2{
     grid-area: computer2;
-
 }
 .choir1{
     grid-area: choir;
@@ -84,8 +80,7 @@ article h3{
 }
 article p, img, video{
     margin: 0 auto;
-    width: 80%
-    
+    width: 80%   
 }
 div{
     background-color: lightgray;
@@ -141,9 +136,6 @@ table{
 table th, td{
     border: 3px black solid; 
 }
-tr:hover{
-    background-color: lightblue;
-}
 th{
     background-color: white;
 }
@@ -152,6 +144,9 @@ td{
 }
 tr:nth-child(odd){
 background-color: lightpink;
+}
+tr:hover{
+    background-color: lightblue;
 }
 table td:last-child{
     color: red;
@@ -177,8 +172,6 @@ footer p{
     display: flex;
     width: 80%;
     margin: 0 auto;
-
-
 }
     
 @media screen and  (max-width: 1000px) {
